@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PMDM</string>
+    <string name="date">30/09/2022</string>
+    <string name="title">Titulo</string>
+    <string name="content">Esto es contenido.Esto es contenido.Esto es contenido.</string>
+    <string name="description">Esto es una descripcion.Esto es una descripcion.Esto es una descripcion.Esto es una descripcion.</string>
 </resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ut01.ex03b.Ut01Ex03bActivity">
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto1"/>
+
+    <TextView
+        android:id="@+id/text02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text01"
+        android:text="Texto2"/>
+
+    <TextView
+        android:id="@+id/text03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text02"
+        android:text="Texto3"/>
+
+    <TextView
+        android:id="@+id/text03b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text03"
+        android:layout_toEndOf="@id/text02"
+        android:text="Texto3"/>
+
+    <TextView
+        android:id="@+id/text03c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text03b"
+        android:layout_toEndOf="@id/text02"
+        android:text="Texto3"/>
+
+    <TextView
+        android:id="@+id/text04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_toEndOf="@id/text03"
+        android:text="Texto4"/>
+
+    <TextView
+        android:id="@+id/text04b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text03"
+        android:layout_below="@id/text04"
+        android:text="Texto4"/>
+
+    <TextView
+        android:id="@+id/text05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text04b"
+        android:layout_below="@id/text04"
+        android:text="Texto5"/>
+
+    <TextView
+        android:id="@+id/text06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/text05"
+        android:layout_above="@id/text05"
+        android:text="Texto6"/>
+
+
+</RelativeLayout>
