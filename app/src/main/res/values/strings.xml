@@ -4,4 +4,5 @@
     <string name="title">Titulo</string>
     <string name="content">Esto es contenido.Esto es contenido.Esto es contenido.</string>
     <string name="description">Esto es una descripcion.Esto es una descripcion.Esto es una descripcion.Esto es una descripcion.</string>
+    <string name="disponibles">3 disponible(s)</string>
 </resources>
