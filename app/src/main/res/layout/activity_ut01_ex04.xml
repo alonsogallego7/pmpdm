@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ut01.ex04.presentation.Ut01Ex04Activity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/grocery"
+        android:layout_width="240dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/im_grocery">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_alignTop="@id/grocery"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/yellow"
+        android:padding="3dp"
+        android:text="@string/disponibles"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@id/grocery"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/ic_circle_2"
+        android:tint="@color/black">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/favourite"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@id/grocery"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="6dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_favorite"
+        android:tint="@color/white">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_alignBottom="@id/grocery"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_circle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_alignBottom="@id/grocery"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/im_logo" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/grocery"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:layout_toEndOf="@id/logo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Cheema fruteria - General Ricardos-Fruteria"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grocery"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+        android:text="Pack sorpresa"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+        android:text="Recogida hoy: 00:14 - 23:59"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle"
+        android:layout_alignLeft="@id/grocery"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/subtitle"
+        android:layout_alignStart="@id/subtitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="6dp"
+        android:background="@color/orange"
+        android:padding="1dp"
+        android:src="@drawable/ic_star_filled"
+        android:tint="@color/white">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle"
+        android:layout_toEndOf="@id/star"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="2,7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle"
+        android:layout_toEndOf="@id/star"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="4,1 km" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle"
+        android:layout_toEndOf="@id/star"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:text="2,99 €" />
+
+
+</RelativeLayout>
