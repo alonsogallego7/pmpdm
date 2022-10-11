@@ -7,6 +7,6 @@ import com.alonsogallego.pmdm.R
 class Ut01Ex02Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ut01ex02)
+        setContentView(R.layout.activity_ut01_ex02)
     }
 }
